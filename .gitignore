@@ -159,4 +159,21 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+# Sublime Text
+#  This is to prevent build cache files for build systems that match the following wildcard:
+#  *.sublime-project
+#  *.sublime-workspace
+#  https://www.sublimetext.com/docs/build_systems.html#options
+*.sublime-workspace
+
+# VS Code
+#  https://code.visualstudio.com/docs/getstarted/tips-and-tricks#vscode
+.vscode/
+
+# Ignore pytorch model files
+*.pt
+
+# Ignore desktop.ini files
+desktop.ini
